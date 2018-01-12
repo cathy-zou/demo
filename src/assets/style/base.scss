@@ -1,0 +1,18 @@
+body,div,span,ul,ol,img,p,h1,h2,h3,h4,h5,h6,i,s{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix{
+  *zoom: 1;
+}
